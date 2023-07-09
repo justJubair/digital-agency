@@ -56,6 +56,10 @@
     margin-bottom: 1em;
 }
 
+.banner-heading span {
+    color: rgb(219, 42, 11);
+}
+
 /* Button related styles */
 .banner-button button {
     margin-right: 1em;
