@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* Common shared styles */
+span {
+    color: rgb(219, 42, 11);
+}
+
 /* Navigation bar related styles */
 .navbar {
     display: flex;
@@ -20,6 +25,8 @@
 .menu-item ul a {
     text-decoration: none;
     color: #000;
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
 .menu-item ul li {
@@ -56,10 +63,6 @@
     margin-bottom: 1em;
 }
 
-.banner-heading span {
-    color: rgb(219, 42, 11);
-}
-
 /* Button related styles */
 .banner-button button {
     margin-right: 1em;
@@ -70,4 +73,100 @@
 .btn-orange {
     background-color: rgb(219, 42, 11);
     color: #fff;
+}
+/* banner ends */
+
+/* service related styles */
+.service-container {
+    background-color: #000;
+    color: #fff;
+    padding: 0em 1.5em; 
+    display: flex;
+}
+
+.service-content > button {
+    padding: 1.2em 3em; 
+    /* margin: 4em 1em 2em 1em; */
+    margin: 4em 0 0.7em 0;
+    border-radius: 35px;
+}
+
+.service-content  p {
+    width: 40%;
+}
+
+.service-title {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: rgb(198, 196, 196);
+}
+
+.service-content p, li {
+    font-size: 0.7em;
+    font-weight: 400;
+    color: rgb(198, 196, 196);
+    /* margin-bottom: 1em; */
+}
+
+.service-content p {
+    margin-bottom: 1em;
+} 
+
+.founder-info-container {
+    display: flex;
+    align-items: center;
+}
+
+.founder-info-container > button {
+    padding: 1em;
+    border-radius: 35px;
+}
+
+.founder {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    /* justify-content: center; */
+}
+
+.founder > img {
+    width: 22%;
+    border-radius: 50%;
+    margin-right: 0.4em;
+}
+
+.founder-info > h4{
+    font-size: 0.6em;
+}
+
+.founder-info > p {
+    font-size: 0.5em;
+}
+
+.service-graphs {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.service-graphs img {
+    width: 80%;
+}
+
+.service-box {
+    color: #000;
+    padding: 3em;
+    /* margin: 2em; */
+    text-align: center;
+    border: 2px solid #000;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.service-box h3 {
+    font-size: 1.2em;
+}
+
+.graph-col {
+    /* padding: 3em; */
 }
