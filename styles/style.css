@@ -85,6 +85,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .service-content > button {
@@ -176,4 +177,45 @@ span {
     margin-top: 1em;
     display: flex;
     gap: 1em;
+}
+
+/* service ends */
+
+/* Appointment section related styles */
+.appointment-container {
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: rgb(219, 42, 11);
+    color: #fff;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    border-right: 3px solid #000;
+}
+
+.phone h4 {
+    margin-left: 1em;
+}
+
+.number {
+    font-size: 2em;
+    color: #fff;
+}
+
+.box {
+    padding: 1em;
+}
+
+.appointment-button button{
+    padding: 1em;
+    border-radius: 15px;
+    border: none;
 }
