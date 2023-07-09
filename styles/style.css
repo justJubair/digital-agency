@@ -118,23 +118,27 @@ span {
 .founder-info-container {
     display: flex;
     align-items: center;
+    /* justify-content: center; */
 }
 
 .founder-info-container > button {
     padding: 1em;
     border-radius: 35px;
-    margin-right: 1.2em;
+    margin: 0 1em 0 1em;
+    color: red;
 }
 
 .founder {
     display: flex;
     align-items: center;
     margin-top: 1em;
-    /* justify-content: center; */
+    padding-right: 1em;
+    border-right: 2px solid red;
+    /* justify-content: start; */
 }
 
 .founder > img {
-    width: 22%;
+    width: 50px;
     border-radius: 50%;
     margin-right: 0.4em;
 }
