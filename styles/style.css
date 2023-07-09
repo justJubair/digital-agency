@@ -219,3 +219,45 @@ span {
     border-radius: 15px;
     border: none;
 }
+/* Appointment section related styles ends */
+
+/* Blog and news related styles */
+.blog-container {
+    /* width: 80%; */
+    /* margin: auto; */
+    margin-top: 2em;
+}
+
+.blog-container > h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 0.2em;
+}
+
+.blog-container > p {
+    font-size: 1.5em;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.blog-img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    margin: 1em;
+    width: 320px;
+    height: 350px;
+    /* padding: 1em; */
+    text-align: center;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
