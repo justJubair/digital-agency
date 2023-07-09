@@ -221,6 +221,7 @@ span {
 }
 /* Appointment section related styles ends */
 
+
 /* Blog and news related styles */
 .blog-container {
     /* width: 80%; */
@@ -261,3 +262,4 @@ span {
     box-shadow: 4px 4px 8px gray;
     border-radius: 10px;
 }
+/* Blog and news related styles ends */
