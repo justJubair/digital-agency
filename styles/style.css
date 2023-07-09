@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Navigation bar related styles */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(176, 176, 176);
+}
+
+.menu-item ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-item ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-item ul li {
+    padding: 1em;
+}
+/* Navigation ends */
